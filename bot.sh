@@ -1,5 +1,5 @@
-sudo apt install python3
-sudo apt install python3-pip
+sudo apt install python3 -y
+sudo apt install python3-pip -y
 sudo pip install pyTelegramBotAPI
 MYIP=$(wget -qO- ipinfo.io/ip)
 systemctl stop ilyass-bot.service  > /dev/null 2>&1
@@ -7,6 +7,7 @@ rm -rf /etc/systemd/system/ilyass-bot.service
 rm -rf /etc/botilyass
 rm -rf /etc/systemd/system/ilyass-bot.service
 mkdir /etc/botilyass
+clear
 read -p "Your Bot Token: " TOKEN
 read -p "Your VPS Domain: " DOMAIN
 read -p "Your VPS Cloudflare Domain: " FLAREDOMAIN
