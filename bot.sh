@@ -8,12 +8,12 @@ rm -rf /etc/botilyass
 rm -rf /etc/systemd/system/ilyass-bot.service
 mkdir /etc/botilyass
 clear
-read -p "Your Bot Token: " TOKEN
-read -p "Your VPS Domain: " DOMAIN
-read -p "Your VPS Cloudflare Domain: " FLAREDOMAIN
-read -p "Your VPS CloudFront Domain: " FRONTDOMAIN
-read -p "Your VPS NS Domain: " NSDOMAIN
-read -p "Your VPS PubKey: " PUBKEY
+read -p "Your Bot Token: " 8058490630:AAFiyQKYBSFBsfb7N-pLJ-JiTUnuvA2BBag
+read -p "Your VPS Domain: " vip.kaisarstore.web.id
+read -p "Your VPS Cloudflare Domain: " kaisarstore.web.id
+read -p "Your VPS CloudFront Domain: " sjjsjjsjsks.kaisarstore.web.id
+read -p "Your VPS NS Domain: " monroe.ns.cloudflare.com
+read -p "Your VPS PubKey: " 7fbd1f8aa0abfe15a7903e837f78aba39cf61d36f183bd604daa2fe4ef3b7b
 
 cat > /etc/botilyass/botilyass.py <<-END
 import telebot
